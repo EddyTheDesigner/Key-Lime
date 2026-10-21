@@ -1,6 +1,6 @@
 # Key Lime 1.0.1
 
-A native dockable **EffectCraft 0.11.1** ScriptUI panel for stashing keyframe selections and editing easing. The compact graph, controllers, interpolation toolbar, and two rows of four slots follow the Ease Stash reference. Rounded outlined buttons follow the neighboring GridBase project, with a lime accent and original vector icons.
+A native dockable **EffectCraft 0.11.1** ScriptUI panel for stashing keyframe selections and editing easing. A compact graph, controllers, and an interpolation toolbar.
 
 ![Key Lime panel with independent incoming and outgoing sliders](tests/Key-Lime-sliders.png)
 
