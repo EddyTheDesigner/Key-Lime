@@ -1,0 +1,17 @@
+{
+  "passed": 12,
+  "checks": [
+    "Middle left track increases incoming influence when dragged left",
+    "Middle left track leaves outgoing handle unchanged",
+    "Middle left track selects incoming even at matching influence values",
+    "One Undo restores the entire middle incoming drag",
+    "Middle right track increases outgoing influence when dragged right",
+    "Middle right track leaves incoming handle unchanged",
+    "Middle right track selects outgoing",
+    "Last incoming slider increases influence when dragged left",
+    "Influence sliders preserve all key speeds",
+    "Last incoming slider decreases influence when dragged right",
+    "Two-key selection uses two controllers",
+    "Incoming direction also works with only two selected keys"
+  ]
+}

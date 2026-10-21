@@ -1,0 +1,24 @@
+{
+  "passed": 18,
+  "checks": [
+    "Hover/startup reads selected keys",
+    "Key slot saves selection",
+    "Ease slot saves curve",
+    "Linear button changes real keys",
+    "Ease slot restores real curve",
+    "Ease Out preserves incoming Hold",
+    "Native mouse drag has one Undo",
+    "Native controller drag updates influence",
+    "Native Undo restores drag",
+    "Nudge arrow moves a key by one frame",
+    "Shift-arrow nudges ten frames",
+    "Controller click opens velocity entry",
+    "Numeric entry applies influence",
+    "Panel follows another composition selection",
+    "Key slot recalls source without changing comp",
+    "Recall leaves current comp visible",
+    "Editing stashed source leaves current comp visible",
+    "Reveal opens source composition"
+  ],
+  "window": 2
+}

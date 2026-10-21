@@ -1,0 +1,13 @@
+{
+  "passed": 8,
+  "checks": [
+    "Multiple properties shown together",
+    "Ctrl-drag edits every selected key across properties",
+    "Ctrl-drag is one native Undo step",
+    "Ctrl-click replaces/stores an Ease slot",
+    "Shift-click pastes reversed easing",
+    "Alt-click clears persistent Ease slot",
+    "Missing source key reports an error",
+    "Undo recovers the stashed source"
+  ]
+}

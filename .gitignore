@@ -1,0 +1,36 @@
+# Keep research downloads, local settings, archives, and probes on this computer.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/build.mjs
+!/install.mjs
+!/Key Lime Demo.ecproj
+!/src/
+/src/*
+!/src/core.js
+!/src/panel.js
+!/assets/
+/assets/*
+!/assets/key-lime.svg
+!/assets/icons.svg
+!/dist/
+/dist/*
+!/dist/Key Lime.jsx
+!/dist/Key Lime.jsx.sha256
+!/tests/
+/tests/*
+!/tests/run.mjs
+!/tests/engine-tests.js
+!/tests/engine-results.txt
+!/tests/rpc.mjs
+!/tests/launch.mjs
+!/tests/finish.mjs
+!/tests/demo.jsx
+!/tests/ui.mjs
+!/tests/advanced-ui.mjs
+!/tests/sliders-ui.mjs
+!/tests/ui-results.json
+!/tests/advanced-ui-results.json
+!/tests/sliders-ui-results.json
+!/tests/Key-Lime-sliders.png

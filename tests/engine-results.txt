@@ -1,0 +1,68 @@
+PASS Capture selected property and keys
+PASS Easy Ease starts at rest (0)
+PASS Easy Ease sets Bezier
+PASS Multi-key edit is one undo step
+PASS Undo restores original interpolation
+PASS Hold interpolation
+PASS Outgoing ease preserves incoming Hold
+PASS Linear interpolation
+PASS Influence edit (72)
+PASS Normalized speed converts to property units (25)
+PASS Inserted keys do not shift saved addresses
+PASS Renamed layer recovery
+PASS Ease snapshot validates
+PASS Ease scales to new value and duration (45)
+PASS Cross-comp edits retain active composition
+PASS Cross-comp edit reaches source (80)
+PASS Reverse paste swaps incoming influence to outgoing (30)
+PASS Reverse paste swaps normalized speed (108)
+PASS Reveal opens original composition
+PASS Reveal selects stored keys
+PASS Nudge moves first selected key by one comp frame (0.03333333333333333)
+PASS Nudge preserves spacing (1.0333333333333334)
+PASS Nudge updates saved addresses
+PASS Value recovery finds moved keys after Undo
+PASS Nudge refuses to cross an unselected key
+PASS Failed nudge leaves keys untouched (0)
+PASS Locked layer rejected before editing
+PASS Invalid numeric edit rejected
+PASS Deleted key produces missing-source error
+PASS Capture multiple properties
+PASS Vector x normalized speed (50)
+PASS Vector y normalized speed (100)
+PASS Live multi-property drag is one Undo
+PASS Drag reaches every selected property (85)
+PASS One Undo restores whole drag (60)
+PASS Two color-coded graph tracks
+PASS Graph has finite speed scale
+PASS Spatial speed graph
+PASS Nudge honors stretched comp time (0.03333333333333333)
+PASS Corrupt ease slot rejected
+PASS Speed graph matches native crossed-handle derivative at sample 16
+PASS Speed graph matches native crossed-handle derivative at sample 32
+PASS Speed graph matches native crossed-handle derivative at sample 48
+PASS Speed graph matches native crossed-handle derivative at sample 64
+PASS Speed graph matches native crossed-handle derivative at sample 80
+PASS Equal-value overshoot retains a nonzero speed graph
+PASS Unnormalizable equal-value speed is rejected clearly
+PASS Roving interior key is skipped
+PASS Stashed property follows precomposition
+PASS More than eight properties is rejected instead of truncated
+PASS Eight properties produce eight speed graphs
+PASS Incoming Position drag preserves path speed instead of signed X velocity (225.4941837884108)
+PASS Middle incoming influence changes (65)
+PASS Middle incoming drag preserves outgoing speed (148.66088448465632)
+PASS Middle incoming drag preserves outgoing Linear
+PASS Auto Bezier incoming edit retains effective speed (111.80339887498948)
+PASS Auto Bezier incoming edit retains opposite speed (111.80339887498948)
+PASS Auto Bezier incoming edit retains opposite influence (16.666666666666664)
+PASS Middle incoming edit leaves outgoing speed curve unchanged
+PASS Undo restores automatic easing
+PASS One Undo restores influence before the entire automatic-key drag (16.666666666666664)
+PASS Auto Bezier outgoing edit retains effective speed (111.80339887498948)
+PASS Middle outgoing edit leaves incoming speed curve unchanged
+PASS Outgoing drag preserves opposite Hold
+PASS Independent incoming ease stays at rest (0)
+PASS Independent outgoing ease stays at rest (0)
+PASS Three-key speed graph remains finite after both handle edits
+ALL 67 ASSERTIONS PASSED

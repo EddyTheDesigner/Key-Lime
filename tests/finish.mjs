@@ -1,0 +1,1 @@
+import {cmd,rpc} from './rpc.mjs';const s=await cmd('project.summary');if(!s.path?.replaceAll('\\','/').endsWith('/Key Lime/Key Lime Demo.ecproj')||s.dirty)throw Error('Test instance is not the saved Key Lime demo; leaving it open.');console.log(await rpc('app.quit',{}));

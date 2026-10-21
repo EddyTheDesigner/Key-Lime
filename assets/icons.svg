@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 64">
+  <rect width="448" height="64" rx="12" fill="#1d1f1d"/>
+  <g fill="#d1d9c9">
+    <path id="linear" d="M16 24l8 8-8 8-8-8z"/>
+    <path id="easy-ease" d="M40 24h16l-5 8 5 8H40l5-8z"/>
+    <path id="ease-out" d="M72 24h8l8 8-8 8h-8l5-8z"/>
+    <path id="ease-in" d="M120 24h-8l-8 8 8 8h8l-5-8z"/>
+    <path id="hold" d="M136 32l8-8h8v16h-8z"/>
+    <path id="left" d="M184 28h-8v-5l-10 9 10 9v-5h8z"/>
+    <path id="right" d="M200 28h8v-5l10 9-10 9v-5h-8z"/>
+    <path id="bookmark" d="M234 23h12v18l-6-5-6 5z"/>
+  </g>
+  <g fill="none" stroke="#d1d9c9" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+    <path id="reveal" d="M262 32q10-13 20 0-10 13-20 0z"/><circle cx="272" cy="32" r="2.5"/>
+    <path id="copy" d="M299 23h10v15h-10zm13 4v14h-10m0-14h4m-4 4h4"/>
+    <path id="paste" d="M331 26h3v-3h5v3h4v15h-12zm3 0h5"/>
+    <path id="trash" d="M361 27h14m-10-3h6m-8 6 1 11h8l1-11m-6 1v7m3-7v7"/>
+    <path id="menu" d="M394 26h12m-12 6h12m-12 6h12"/>
+  </g>
+  <g stroke="#abd454" stroke-width="1.6" fill="none"><circle cx="432" cy="32" r="9"/><path d="M432 25v14m-6-10.5 12 7m-12 0 12-7"/></g>
+</svg>
